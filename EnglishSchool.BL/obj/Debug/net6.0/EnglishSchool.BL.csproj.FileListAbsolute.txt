@@ -1,0 +1,12 @@
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\bin\Debug\net6.0\EnglishSchool.BL.deps.json
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\bin\Debug\net6.0\EnglishSchool.BL.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\bin\Debug\net6.0\EnglishSchool.BL.pdb
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\obj\Debug\net6.0\EnglishSchool.BL.csproj.AssemblyReference.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\obj\Debug\net6.0\EnglishSchool.BL.GeneratedMSBuildEditorConfig.editorconfig
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\obj\Debug\net6.0\EnglishSchool.BL.AssemblyInfoInputs.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\obj\Debug\net6.0\EnglishSchool.BL.AssemblyInfo.cs
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\obj\Debug\net6.0\EnglishSchool.BL.csproj.CoreCompileInputs.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\obj\Debug\net6.0\EnglishSchool.BL.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\obj\Debug\net6.0\refint\EnglishSchool.BL.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\obj\Debug\net6.0\EnglishSchool.BL.pdb
+A:\final git gub\school\EnglishSchool\EnglishSchool.BL\obj\Debug\net6.0\ref\EnglishSchool.BL.dll

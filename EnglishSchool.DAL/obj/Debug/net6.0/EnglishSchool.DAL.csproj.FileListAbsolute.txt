@@ -1,0 +1,17 @@
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\bin\Debug\net6.0\EnglishSchool.DAL.deps.json
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\bin\Debug\net6.0\EnglishSchool.DAL.runtimeconfig.json
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\bin\Debug\net6.0\EnglishSchool.DAL.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\bin\Debug\net6.0\EnglishSchool.DAL.pdb
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\bin\Debug\net6.0\EnglishSchool.Domain.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\bin\Debug\net6.0\EnglishSchool.Domain.pdb
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\EnglishSchool.DAL.csproj.AssemblyReference.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\EnglishSchool.DAL.GeneratedMSBuildEditorConfig.editorconfig
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\EnglishSchool.DAL.AssemblyInfoInputs.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\EnglishSchool.DAL.AssemblyInfo.cs
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\EnglishSchool.DAL.csproj.CoreCompileInputs.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\EnglishSchool.DAL.csproj.CopyComplete
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\EnglishSchool.DAL.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\refint\EnglishSchool.DAL.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\EnglishSchool.DAL.pdb
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\EnglishSchool.DAL.genruntimeconfig.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.DAL\obj\Debug\net6.0\ref\EnglishSchool.DAL.dll

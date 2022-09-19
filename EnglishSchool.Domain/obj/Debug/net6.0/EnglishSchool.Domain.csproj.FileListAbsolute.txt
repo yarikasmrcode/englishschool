@@ -1,0 +1,12 @@
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\bin\Debug\net6.0\EnglishSchool.Domain.deps.json
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\bin\Debug\net6.0\EnglishSchool.Domain.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\bin\Debug\net6.0\EnglishSchool.Domain.pdb
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\obj\Debug\net6.0\EnglishSchool.Domain.csproj.AssemblyReference.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\obj\Debug\net6.0\EnglishSchool.Domain.GeneratedMSBuildEditorConfig.editorconfig
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\obj\Debug\net6.0\EnglishSchool.Domain.AssemblyInfoInputs.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\obj\Debug\net6.0\EnglishSchool.Domain.AssemblyInfo.cs
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\obj\Debug\net6.0\EnglishSchool.Domain.csproj.CoreCompileInputs.cache
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\obj\Debug\net6.0\EnglishSchool.Domain.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\obj\Debug\net6.0\refint\EnglishSchool.Domain.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\obj\Debug\net6.0\EnglishSchool.Domain.pdb
+A:\final git gub\school\EnglishSchool\EnglishSchool.Domain\obj\Debug\net6.0\ref\EnglishSchool.Domain.dll
