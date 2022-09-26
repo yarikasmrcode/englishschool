@@ -67,3 +67,12 @@ A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\AutoMap
 A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\EnglishSchool.Common.dll
 A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\EnglishSchool.Common.pdb
+A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\EnglishSchool.Api.staticwebassets.runtime.json
+A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+A:\final git gub\school\EnglishSchool\EnglishSchool.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

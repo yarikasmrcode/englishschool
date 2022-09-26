@@ -2,12 +2,16 @@
 using EnglishSchool.Common.Dtos;
 using EnglishSchool.DAL.Interfaces;
 using EnglishSchool.Domain;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.JsonWebTokens;
 using System.Collections.Generic;
 
 namespace EnglishSchool.Api.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Route("api/[controller]")]
     [ApiController]
     public class MaterialsController : ControllerBase
@@ -21,10 +25,10 @@ namespace EnglishSchool.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetMaterials(CancellationToken token)
+        public async Task<IEnumerable<MaterialDto>> GetMaterials(CancellationToken token)
         {
             var materials = _mapper.Map<List<MaterialDto>>(await _unitOfWork.Materials.GetAll(token));
-            return Ok(materials);
+            return materials;
         }
 
         [HttpGet("{id}")]
