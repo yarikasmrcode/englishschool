@@ -46,7 +46,8 @@ builder.Services.AddAuthentication(options => {
         };
     });
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options 
+    => options.SignIn.RequireConfirmedAccount = false)
     .AddEntityFrameworkStores<AppDbContext>();
 
 builder.Services.AddSwaggerGen(c => {

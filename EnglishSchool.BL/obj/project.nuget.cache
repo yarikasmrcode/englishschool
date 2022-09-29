@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gqUfQ2idSr/a0BQeY+APIXiaSXadT6e/Nx5wQRxjNPSeoV5ep6s6Iimr2ycutvBkCGICnEmzEflx1ukK6jjsnw==",
+  "dgSpecHash": "mShu8q5QCwdMAc/wXzxoUzsc6S6BuXEndm6EnsH2NKOhJh55gQ8FfbigZOGN3SjSf1rYjVtindWrmIGC4VqDSA==",
   "success": true,
-  "projectFilePath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.BL\\EnglishSchool.BL.csproj",
+  "projectFilePath": "A:\\final project\\EnglishSchool.BL\\EnglishSchool.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.9\\microsoft.aspnetcore.authentication.jwtbearer.6.0.9.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.9\\microsoft.aspnetcore.cryptography.internal.6.0.9.nupkg.sha512",

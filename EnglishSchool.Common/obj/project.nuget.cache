@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0K/ozsfuH+J07hro5sjblt8QT0lzsZleQ2krWNRYdpgr6NNVgUlnWQdTtZrtnJ6vpuOAS3ejnd9xK8PdQ6vewg==",
+  "dgSpecHash": "f7uA9zz7gMbzAsicoEfeLGTISTNfQBYWPlNIdp5J06lcvSEO3OqR0WNgZvwRxcF42BT6Yv9GPcaHeZoyEzXngw==",
   "success": true,
-  "projectFilePath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Common\\EnglishSchool.Common.csproj",
+  "projectFilePath": "A:\\final project\\EnglishSchool.Common\\EnglishSchool.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

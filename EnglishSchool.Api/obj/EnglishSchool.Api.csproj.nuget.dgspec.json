@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Api\\EnglishSchool.Api.csproj": {}
+    "A:\\final project\\EnglishSchool.Api\\EnglishSchool.Api.csproj": {}
   },
   "projects": {
-    "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Api\\EnglishSchool.Api.csproj": {
+    "A:\\final project\\EnglishSchool.Api\\EnglishSchool.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Api\\EnglishSchool.Api.csproj",
+        "projectUniqueName": "A:\\final project\\EnglishSchool.Api\\EnglishSchool.Api.csproj",
         "projectName": "EnglishSchool.Api",
-        "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Api\\EnglishSchool.Api.csproj",
+        "projectPath": "A:\\final project\\EnglishSchool.Api\\EnglishSchool.Api.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Api\\obj\\",
+        "outputPath": "A:\\final project\\EnglishSchool.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Common\\EnglishSchool.Common.csproj": {
-                "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Common\\EnglishSchool.Common.csproj"
+              "A:\\final project\\EnglishSchool.Common\\EnglishSchool.Common.csproj": {
+                "projectPath": "A:\\final project\\EnglishSchool.Common\\EnglishSchool.Common.csproj"
               },
-              "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj": {
-                "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj"
+              "A:\\final project\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj": {
+                "projectPath": "A:\\final project\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj"
               }
             }
           }
@@ -106,14 +106,14 @@
         }
       }
     },
-    "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Common\\EnglishSchool.Common.csproj": {
+    "A:\\final project\\EnglishSchool.Common\\EnglishSchool.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Common\\EnglishSchool.Common.csproj",
+        "projectUniqueName": "A:\\final project\\EnglishSchool.Common\\EnglishSchool.Common.csproj",
         "projectName": "EnglishSchool.Common",
-        "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Common\\EnglishSchool.Common.csproj",
+        "projectPath": "A:\\final project\\EnglishSchool.Common\\EnglishSchool.Common.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Common\\obj\\",
+        "outputPath": "A:\\final project\\EnglishSchool.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -135,8 +135,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj": {
-                "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj"
+              "A:\\final project\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj": {
+                "projectPath": "A:\\final project\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj"
               }
             }
           }
@@ -188,14 +188,14 @@
         }
       }
     },
-    "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj": {
+    "A:\\final project\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj",
+        "projectUniqueName": "A:\\final project\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj",
         "projectName": "EnglishSchool.DAL",
-        "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj",
+        "projectPath": "A:\\final project\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.DAL\\obj\\",
+        "outputPath": "A:\\final project\\EnglishSchool.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -217,8 +217,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj": {
-                "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj"
+              "A:\\final project\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj": {
+                "projectPath": "A:\\final project\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj"
               }
             }
           }
@@ -280,14 +280,14 @@
         }
       }
     },
-    "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj": {
+    "A:\\final project\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj",
+        "projectUniqueName": "A:\\final project\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj",
         "projectName": "EnglishSchool.Domain",
-        "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj",
+        "projectPath": "A:\\final project\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\obj\\",
+        "outputPath": "A:\\final project\\EnglishSchool.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

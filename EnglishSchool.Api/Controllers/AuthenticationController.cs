@@ -17,10 +17,17 @@ namespace EnglishSchool.Api.Controllers
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IConfiguration _configuration;
-        public AuthenticationController(UserManager<IdentityUser> userManager, IConfiguration configuration)
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly ILogger<AuthenticationController> _logger;
+        public AuthenticationController(UserManager<IdentityUser> userManager,
+            IConfiguration configuration,
+            RoleManager<IdentityRole> roleManager,
+            ILogger<AuthenticationController> logger)
         {
             _userManager = userManager;
             _configuration = configuration;
+            _roleManager = roleManager;
+            _logger = logger;
         }
 
         [HttpPost]
@@ -53,7 +60,9 @@ namespace EnglishSchool.Api.Controllers
 
                 if (isCreated.Succeeded)
                 {
-                    var token = GenerateJwtToken(newUser);
+                    await _userManager.AddToRoleAsync(newUser, "AppUser");
+
+                    var token = await GenerateJwtToken(newUser);
                     return Ok(new AuthResult() { Result = true, Token = token });
                 }
                 else
@@ -99,7 +108,7 @@ namespace EnglishSchool.Api.Controllers
                     });
                 }
 
-                var jwtToken = GenerateJwtToken(existingUser);
+                var jwtToken = await GenerateJwtToken(existingUser);
 
                 return Ok(new AuthResult() { Result = true, Token = jwtToken});
             }
@@ -110,24 +119,17 @@ namespace EnglishSchool.Api.Controllers
                 Errors = new List<string>() { "Invalid payload"}
             });
         }
-        private string GenerateJwtToken(IdentityUser user)
+        private async Task<string> GenerateJwtToken(IdentityUser user)
         {
             var jwtTokenHandler = new JwtSecurityTokenHandler();
 
             var key = Encoding.UTF8.GetBytes(_configuration.GetSection("JwtConfig:Secret").Value);
 
+            var claims = await GetAllValidClaims(user);
+            
             var tokenDescriptor = new SecurityTokenDescriptor()
             {
-                Subject = new ClaimsIdentity(new[]
-                {
-                    new Claim("Id",user.Id),
-                    new Claim(JwtRegisteredClaimNames.Email, user.Email),
-                    new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-
-                    //id for refreshed token
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                    new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString())
-                }),
+                Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.UtcNow.AddHours(6),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key)
                 , SecurityAlgorithms.HmacSha256Signature)
@@ -138,6 +140,44 @@ namespace EnglishSchool.Api.Controllers
 
             return jwtToken;
 
+        }
+
+        private async Task<List<Claim>> GetAllValidClaims(IdentityUser user)
+        {
+            var options = new IdentityOptions();
+
+            var claims = new List<Claim>()
+            {
+                new Claim("Id",user.Id),
+                new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString())
+            };
+
+            var userClaims = await _userManager.GetClaimsAsync(user);
+            claims.AddRange(userClaims);
+
+            var userRoles = await _userManager.GetRolesAsync(user);
+
+            foreach (var userRole in userRoles)
+            {
+                var role = await _roleManager.FindByNameAsync(userRole);
+
+                if (role != null)
+                {
+                    claims.Add(new Claim(ClaimTypes.Role, userRole));
+
+                    var roleClaims = await _roleManager.GetClaimsAsync(role);
+
+                     foreach (var roleClaim in roleClaims)
+                     {
+                        claims.Add(roleClaim);
+                     }
+                }
+            }
+
+            return claims;
         }
     }
 }

@@ -11,9 +11,10 @@ using System.Collections.Generic;
 
 namespace EnglishSchool.Api.Controllers
 {
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "AppUser")]
+
     public class MaterialsController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;

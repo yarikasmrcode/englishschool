@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.BL\\EnglishSchool.BL.csproj": {}
+    "A:\\final project\\EnglishSchool.BL\\EnglishSchool.BL.csproj": {}
   },
   "projects": {
-    "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.BL\\EnglishSchool.BL.csproj": {
+    "A:\\final project\\EnglishSchool.BL\\EnglishSchool.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.BL\\EnglishSchool.BL.csproj",
+        "projectUniqueName": "A:\\final project\\EnglishSchool.BL\\EnglishSchool.BL.csproj",
         "projectName": "EnglishSchool.BL",
-        "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.BL\\EnglishSchool.BL.csproj",
+        "projectPath": "A:\\final project\\EnglishSchool.BL\\EnglishSchool.BL.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.BL\\obj\\",
+        "outputPath": "A:\\final project\\EnglishSchool.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

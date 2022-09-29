@@ -13,3 +13,18 @@ A:\final git gub\school\EnglishSchool\EnglishSchool.Common\obj\Debug\net6.0\ref\
 A:\final git gub\school\EnglishSchool\EnglishSchool.Common\bin\Debug\net6.0\EnglishSchool.Domain.dll
 A:\final git gub\school\EnglishSchool\EnglishSchool.Common\bin\Debug\net6.0\EnglishSchool.Domain.pdb
 A:\final git gub\school\EnglishSchool\EnglishSchool.Common\obj\Debug\net6.0\EnglishSchool.Common.csproj.CopyComplete
+A:\final project\EnglishSchool.Common\bin\Debug\net6.0\EnglishSchool.Common.deps.json
+A:\final project\EnglishSchool.Common\bin\Debug\net6.0\EnglishSchool.Common.dll
+A:\final project\EnglishSchool.Common\bin\Debug\net6.0\EnglishSchool.Common.pdb
+A:\final project\EnglishSchool.Common\bin\Debug\net6.0\EnglishSchool.Domain.dll
+A:\final project\EnglishSchool.Common\bin\Debug\net6.0\EnglishSchool.Domain.pdb
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\EnglishSchool.Common.csproj.AssemblyReference.cache
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\EnglishSchool.Common.GeneratedMSBuildEditorConfig.editorconfig
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\EnglishSchool.Common.AssemblyInfoInputs.cache
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\EnglishSchool.Common.AssemblyInfo.cs
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\EnglishSchool.Common.csproj.CoreCompileInputs.cache
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\EnglishSchool.Common.csproj.CopyComplete
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\EnglishSchool.Common.dll
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\refint\EnglishSchool.Common.dll
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\EnglishSchool.Common.pdb
+A:\final project\EnglishSchool.Common\obj\Debug\net6.0\ref\EnglishSchool.Common.dll

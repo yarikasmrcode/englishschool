@@ -1462,11 +1462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj",
+      "projectUniqueName": "A:\\final project\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj",
       "projectName": "EnglishSchool.Domain",
-      "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj",
+      "projectPath": "A:\\final project\\EnglishSchool.Domain\\EnglishSchool.Domain.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Domain\\obj\\",
+      "outputPath": "A:\\final project\\EnglishSchool.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IZulLjmMPftkmEKgBWyk0vZhEftsd1Nfvxzp3VSBa7h99gLS4xzzuLN/qyNsn/5hYls3NT1rPN7a7v2W2R8+gA==",
+  "dgSpecHash": "7D+dw4/2N/TjDYFw2GGGzaxKVcBNjUibdVxk7WSmnkzrJJFVcH6vE2nu+y01qhIQgSPthHdgJUBikLXcY+4NAQ==",
   "success": true,
-  "projectFilePath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj",
+  "projectFilePath": "A:\\final project\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.9\\microsoft.aspnetcore.authentication.jwtbearer.6.0.9.nupkg.sha512",

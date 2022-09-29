@@ -2775,11 +2775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Api\\EnglishSchool.Api.csproj",
+      "projectUniqueName": "A:\\final project\\EnglishSchool.Api\\EnglishSchool.Api.csproj",
       "projectName": "EnglishSchool.Api",
-      "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Api\\EnglishSchool.Api.csproj",
+      "projectPath": "A:\\final project\\EnglishSchool.Api\\EnglishSchool.Api.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Api\\obj\\",
+      "outputPath": "A:\\final project\\EnglishSchool.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2801,11 +2801,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Common\\EnglishSchool.Common.csproj": {
-              "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.Common\\EnglishSchool.Common.csproj"
+            "A:\\final project\\EnglishSchool.Common\\EnglishSchool.Common.csproj": {
+              "projectPath": "A:\\final project\\EnglishSchool.Common\\EnglishSchool.Common.csproj"
             },
-            "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj": {
-              "projectPath": "A:\\final git gub\\school\\EnglishSchool\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj"
+            "A:\\final project\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj": {
+              "projectPath": "A:\\final project\\EnglishSchool.DAL\\EnglishSchool.DAL.csproj"
             }
           }
         }
